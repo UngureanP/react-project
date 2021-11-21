@@ -35,7 +35,7 @@ const ExpenseForm = (props) => {
         setEnteredDate('');
     };
 
-    return <from>
+    return <>
         <div className="new-expense__controls">
             <div className="new-expense__control">
                 <label>Title</label>
@@ -69,7 +69,7 @@ const ExpenseForm = (props) => {
         <div className="new-expense__actions">
             <button type="submit" onClick={submitHandler}>Add Expense</button>
         </div>
-    </from>
+    </>
 };
 
 export default ExpenseForm;
